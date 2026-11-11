@@ -1,0 +1,7 @@
+{
+  "// 说明": "复制本文件为 tray.config.json 并按需修改；所有键都可省略，省略时自动探测。",
+  "dsh_dir": "D:\\deepseek-harness",
+  "port": 3080,
+  "cdp_port": 9222,
+  "edge_profile": ""
+}

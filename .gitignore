@@ -1,0 +1,16 @@
+# 运行产物（每台机器各自生成，不入库）
+__pycache__/
+*.pyc
+tray.log*
+tray-error.log*
+tray.config.json
+edge-profile/
+*.lnk
+
+# 图标：默认不入库（安装脚本会用 make_icon.py 生成 icon.ico；
+# tray.ico 通常是复制自本机 dsh 仓库的品牌图标，同样不入库）
+icon.ico
+tray.ico
+
+# 测试残留
+_edge*/
